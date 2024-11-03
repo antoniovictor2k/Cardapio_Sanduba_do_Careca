@@ -1,0 +1,354 @@
+/* Tablets e Celulares (col-md) 0px a 767px */
+@media (max-width: 767px) {
+
+    .botao-carrinho {
+        right: 3%;
+        bottom: 5%;
+    }
+
+    .no-select {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .no-mobile {
+        display: none !important;
+    }
+
+    .col-one {
+        padding-left: 35px !important;
+        padding-right: 20px !important;
+    }
+
+    .navbar-toggler-icon {
+        padding-top: 5px;
+    }
+
+    .navbar-collapse {
+        background-color: var(--color-primary-light);
+        padding: 20px;
+        text-align: center;
+        border-radius: 40px;
+    }
+
+    .navbar-collapse .btn-white {
+        margin-top: 20px;
+    }
+
+    .navbar-collapse .btn-icon {
+        padding-right: 20px;
+    }
+
+    .navbar-collapse .btn-icon span.icon {
+        display: none;
+
+    }
+
+    .banner {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .text-banner h1 {
+        font-size: 36px;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
+
+    .btn-purple,
+    .btn-white {
+        padding: 12px 12px;
+        border-radius: 8px;
+        font-size: 18px;
+    }
+
+    .cardapio {
+        padding-top: 10px;
+        padding-bottom: 10px !important;
+    }
+
+    .container-menu {
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        margin: 2px;
+        padding: 2px;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .img-produto {
+        position: absolute;
+        left: 15px;
+    }
+
+    .card-item {
+        height: 110px;
+        padding-left: 110px;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .card-item:hover .title-produto {
+        display: initial;
+        color: var(--color-white);
+    }
+
+    .card-item .img-produto img {
+        width: 80px;
+        margin-left: 0px;
+    }
+
+    .title-produto {
+        margin-top: 0px !important;
+        height: 30px !important;
+        text-align: left;
+
+    }
+
+    .price-produto {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        font-size: 18px !important;
+    }
+
+    .card-item .add-carrinho {
+        margin: 0 10px;
+
+    }
+
+    .card-item .btn-add {
+        height: 35px !important;
+        width: 90px !important;
+        margin: 0;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+    }
+
+    .card-item .btn-add:hover {
+        transform: none;
+    }
+
+    #itensCardapio {
+        margin-bottom: 0px !important;
+
+    }
+
+    #sobre {
+        margin: 0px !important;
+        padding-bottom: 100px !important;
+    }
+
+    footer {
+        height: 320px;
+        background-color: var(--color-primary-light);
+        padding: 10px;
+        overflow-y: hidden;
+    }
+
+    .container-logo-footer {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .container-texto-footer p {
+        text-align: center;
+    }
+
+    .container-redes-footer {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        justify-content: center;
+        display: none;
+    }
+
+    .modal-full {
+        padding: 10px;
+    }
+
+    .modal-full .item-carrinho {
+        padding-left: 0;
+        padding-right: 0;
+        /* width: 550px; */
+        /* border: solid 1px red; */
+        /* flex-wrap: wrap; */
+    }
+
+    .modal-full .img-produto {
+        position: relative;
+        left: 0;
+    }
+
+    .modal-full .img-produto {
+        width: 35px;
+    }
+
+    .modal-full .img-produto img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .modal-full .dados-produto {
+        padding-left: 0px;
+        padding-right: 0px;
+        display: grid;
+    }
+
+    .modal-full .title-produto,
+    .modal-full .price-produto {
+        font-size: 15px !important;
+
+    }
+
+    .modal-full .add-numero-items {
+        padding: 0px 0px;
+    }
+
+
+    .modal-full .acrescimo label {
+        font-size: 14px;
+        height: 80px;
+        width: 140px;
+        align-items: center;
+
+    }
+
+    .modal-full .acrescimo label:before {
+        margin-right: 8px;
+        width: 23px;
+    }
+
+    .acrescimosComum,
+    .acrescimosEspecial {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(140px, 1fr));
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-full .form-control {
+        font-size: 16px;
+    }
+
+    .img-produto-resumo img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .title-produto-resumo,
+    .price-produto-resumo {
+        margin-left: 58px;
+    }
+
+    .title-produto.especial {
+        margin-top: 30px !important;
+        margin-bottom: 10px;
+    }
+
+    .select-tamanho-pizza {
+        padding: 5px;
+        width: 300px;
+        height: 35px;
+        font-weight: 600px;
+        font-size: 16px;
+
+    }
+
+    .observacao-carrinho {
+        width: 300px;
+        height: 70px;
+    }
+
+    .modal-full .dados-produtos {
+        flex: 1;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+
+
+    .modal-full .add-carrinho {
+        display: flex;
+        text-align: center;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-full .btn-menos {
+        border: 2px solid var(--color-secondary);
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+    .modal-full .btn-mais {
+        border: 1px solid var(--color-secondary);
+        border-left: 2px solid var(--color-black-heavy);
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+    }
+
+    .modal-full .add-numero-itens {
+        border-top: 2px solid var(--color-secondary);
+        border-bottom: 2px solid var(--color-secondary);
+        border-left: 2px solid var(--color-black);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 30px;
+        font-size: 18px;
+        ;
+    }
+
+    .btn-remove {
+        font-size: 20px;
+        padding: 4px 12px;
+        border-radius: 10px;
+        color: var(--color-white);
+        background-color: var(--color-red);
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .mobile-flex {
+        position: absolute;
+        top: 78px;
+        right: 0px;
+        padding: 0px 28px !important;
+        border-radius: 8px !important;
+        font-size: 15px !important;
+    }
+
+    .modal-full .ver-acrescimos {
+        background-color: transparent;
+        color: var(--color-black) !important;
+        border: 2px solid var(--color-red);
+        cursor: pointer;
+        margin-right: 10px;
+
+    }
+
+}
