@@ -40,39 +40,45 @@ var MENU = {
         {
             "id": "pizza-calabresa",
             "categoria": "pizza",
-            "img": "./img/PIZZA/pizzaCalabresa2.jpg",
+            "img": "./img/lanches/passaporte1.jpeg",
             "name": "Pizza de Calabresa",
             "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
             "price": 20.00
         },
-
         {
-            "id": "pizza-frango",
+            "id": "pizza-calabresa",
             "categoria": "pizza",
-            "img": "./img/PIZZA/pizzaFrango.jpg",
-            "name": "Pizza de Frango",
-            "dsc": "Pizza de Frango",
-            "price": 24.00
+            "img": "./img/lanches/passaporte2.jpeg",
+            "name": "Pizza de Calabresa",
+            "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
+            "price": 20.00
         },
-
         {
-            "id": "pizza-Quatro-Queijo",
+            "id": "pizza-calabresa",
             "categoria": "pizza",
-            "img": "./img/PIZZA/pizzaQuatroQueijo.jpg",
-            "name": "Pizza de Quatro Queijo",
-            "dsc": "Pizza de Quatro Queijo",
-            "price": 19.00
-        }
+            "img": "./img/lanches/passaporte3.jpeg",
+            "name": "Pizza de Calabresa",
+            "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
+            "price": 20.00
+        },
        
     ],
     "lanche": [
         {
             "id": "lanche-xtudo",
             "categoria": "lanche",
-            "img": "./img/LANCHE/lanche.png",
+            "img": "./img/lanches/hambu1.jpeg",
             "name": "Xtudo",
             "dsc": "Xtudo Completão .... ... .. .. .......",
-            "price": 18.00
+            "price": 45.00
+        },
+        {
+            "id": "lanche-xtudo",
+            "categoria": "lanche",
+            "img": "./img/lanches/hambu2.jpeg",
+            "name": "Xtudo",
+            "dsc": "Xtudo Completão .... ... .. .. .......",
+            "price": 30.00
         },
         {
             "id": "lanche-Minuano",

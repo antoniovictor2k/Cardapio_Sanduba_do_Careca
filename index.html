@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Cardápio Online</title>
+    <title>Cardápio Santuba do Careca</title>
     <!--- Define o ícone do site (favicon)-->
     <link rel="shortcut icon" href="" type="image/x-icon" />
 
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/animate.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/responsivo.css" />
+
+    <link rel="shortcut icon" href="/img/Careca/logoCareca.png" type="image/x-icon">
 
 </head>
 
@@ -34,7 +36,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg pl-0 pr-0 col-one">
                 <a class="navbar-brand wow zoomIn" href="#">
-                    <img src="./img/Logo/Semfundo.png" width="150" class="img-logo" />
+                    <img src="./img/Careca/logoCareca.png" width="150" class="img-logo" />
                     <!-- <h3>Sua LOGO</h3> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
@@ -112,7 +114,7 @@
                 <div class="col-6 no-mobile">
                     <div class="card-banner wow fadeIn delay-02s"></div>
                     <div class="d-flex img-banner wow fadeIn delay-03s">
-                        <img src="./img/Logo/SemFundoBranco.png" alt="">
+                        <img src="./img/Careca/logoCareca.png" alt="logocareca">
                     </div>
 
                     <!-- <div class="card card-case">
@@ -142,12 +144,12 @@
                 <div class="col-12 container-menu wow fadeInUp">
                     <a id="menu-acai" class="btn btn-white btn-sm-2 mr-3 active"
                         onclick="cardapio.metodos.obterItensCardapio('acai')">
-                        <div class="icon-acai"></div> Açai
+                        <div class="icon-acai"></div> Milk shake
 
                     </a>
                     <a id="menu-pizza" class="btn btn-white btn-sm-2 mr-3"
                         onclick="cardapio.metodos.obterItensCardapio('pizza')">
-                        <div class="icon-pizza"></div> Pizza
+                        <div class="icon-pizza"></div> Passaportes
 
                     </a>
 
@@ -175,57 +177,41 @@
 
     </section>
 
-    <section class="sobre col-one wow fadeInUp delay-05s" id="sobre">
+    <section class="sobre selectionsobrenos col-one wow fadeInUp delay-09s" id="sobre" >
+        <div class="devTextSobre">
+
+            <span class="hint-title"><b>Sobre Nós</b></span>
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-5 no-mobile text-center">
-                    <div class="card-sobre"></div>
-                    <div class="d-flex img-banner">
-                        <img class="img-sobre" src="./img/Logo/Semfundo.png" alt="">
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-7">
-
 
                     <div class="text-center">
-                        <span class="hint-title"><b>Sobre Nós</b></span>
                         <h1 class="title">
-                            <b>Quem somos?</b>
+                            <b>Há mais de 20 anos, o Careca vem empreendendo e transformando vidas</b>
                         </h1>
                     </div>
                     <div class="mb-5">
-                        <p class="paragrafo-sobre">Nós da VTEC System somos uma empresa iniciante no desenvolvimento
-                            web, apaixonada por proporcionar a você a melhor experiência digital. Fundada em 2021,
-                            estamos comprometidos em oferecer soluções de alta qualidade e experiências incríveis para
-                            nossos clientes.</p>
-                        <p class="paragrafo-sobre">Nosso compromisso com a inovação tecnológica e um ambiente
-                            colaborativo torna a parceria com a VTEC System uma jornada memorável no mundo digital.</p>
+                        <p class="paragrafo-sobre">Thiago Careca, empreendedor, palestrante, influencer e conhecido como “A cara do Brasil”, começou seu pequeno negócio em 2003, na cidade de Maceió/AL, apenas com coragem, resiliência e muita vontade de empreender, transformando a marca “Sanduba do Careca” em um grupo onde tem várias marcas para franquias de alimentação com grande crescimento no Brasil. Hoje, ajuda não só a construir novas marcas, gerar empregos, como também a transformar a vida das pessoas através de suas palestras, ações sociais e mentorias.</p>
                     </div>
-                </div>
-            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-3 col-md-3 col-sm-12 container-logo-footer wow zoomIn">
-                    <!-- <img class="logo-footer" src="./" alt=""> -->
-                    <img src="./img/Logo/SemFundoP.png" width="140" class="img-logo" />
+            <div class="row rowfooter">
+                <div class=" container-logo-footer wow zoomIn">
+                    <img src="./img/Careca/logoCareca.png" width="80" class="img-logo" />
                 </div>
 
-                <div class="col-12 col-lg-6 col-md-3 col-sm-12 container-texto-footer">
-                    <p class="mb-0">
-                        <b>Cardápio Online</b> <br> &copy; Todos os direitos reservados <br><br>
-                        <b>Desenvolvido por:</b>
-                        <a class="aDev" onclick="carregarAPIWhatsap()" href="" target="_blank" title="Fale Conosco...">
-                            VTEC System
-                        </a>
+                <div class="container-texto-footer">
+                    <p class="">
+                        <b>Cardápio Online </b> &copy; Todos os direitos reservados.
+                        <!-- <a class="aDev" onclick="carregarAPIWhatsap()" href="" target="_blank" title="Fale Conosco...">
+                            Antonio Victor
+                        </a> -->
                     </p>
                 </div>
 
-                <div class="col-12 col-lg-3 col-md-3 col-sm-12 container-redes-footer wow zoomIn">
+                <div class="container-redes-footer wow zoomIn">
                     <a class="btn btn-sm btn-white btn-social mr-3" href="https://www.instagram.com/antoniovictor2k"
                         target="_blank">
                         <i class="fab fa-instagram social-icon"

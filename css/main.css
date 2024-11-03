@@ -164,17 +164,6 @@ a.navbar-brand {
 
 }
 
-.card-banner {
-    height: 280px;
-    width: 280px;
-    border-radius: 140px;
-    background-size: 400% 400%;
-    position: absolute;
-    right: 80px;
-    top: 0px;
-    background: linear-gradient(45deg, #5df7b7, #fc2dfc, #3636ff, #6bff30);
-    animation: gradient 8s ease infinite;
-}
 
 
 @keyframes gradient {
@@ -201,9 +190,9 @@ a.navbar-brand {
 
 .img-banner img {
     position: absolute;
-    width: 440px;
-    top: -80px;
-    right: 0px;
+    width: 300px;
+    top: 0px;
+    right: 120px;
 }
 
 .card {
@@ -214,16 +203,23 @@ a.navbar-brand {
     border: none !important;
 }
 
+.devTextSobre{
+
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
 .hint-title {
-    color: #513F8B;
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
+    color: var(--color-white);
+    font-size: 36px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
 }
 
 .title {
-    color: var(--color-black);
-    font-size: 40px;
+    color: var(--color-separate);
+    font-size: 30px;
     margin-top: 5px;
     margin-bottom: 30px;
 }
@@ -406,27 +402,19 @@ a.navbar-brand {
 }
 
 .sobre {
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
 
 
-
-.img-sobre {
-    height: 410px;
-    width: 200px;
-}
 
 footer {
     color: var(--color-black);
     overflow-x: hidden;
-    height: 150px;
+    height: 100px;
 
 }
 
-.logo-footer {
-    width: 100px;
-}
 
 .container-logo-footer,
 .container-texto-footer,
@@ -436,17 +424,24 @@ footer {
 
 }
 
-.container-logo-footer {
+.rowfooter{
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .container-logo-footer {
     justify-content: start;
 }
 
 .container-texto-footer {
     justify-content: center;
+    padding: 10px;
 }
 
 .container-redes-footer {
     justify-content: end;
-}
+} */
 
 .modal-full {
     position: fixed;
@@ -1071,9 +1066,22 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 }
 
 .container-texto-footer a {
-    color: var(--color-text);
-    font-weight: 700;
-    font-size: 1.1em;
+    color: var(--color-black);
+    font-weight: 400;
+    font-size: 1em;
     cursor: pointer;
     outline: none;
+}
+
+.selectionsobrenos{
+    background-image: url('/img/Careca/banner.jpg');
+    background-size: cover;       /* Ajusta o tamanho da imagem para cobrir todo o elemento */
+    background-position: center;  /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-color: rgba(0, 0, 0, 0.85); /* Preto com 85% de opacidade */
+    background-blend-mode: overlay; /* Mescla a cor com a imagem */
+}
+
+.paragrafo-sobre{
+    color: var(--color-white);
 }
