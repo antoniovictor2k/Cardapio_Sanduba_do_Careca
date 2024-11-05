@@ -225,7 +225,7 @@ a.navbar-brand {
 }
 
 .icon-acai {
-    background-image: url(../img/ACAI/icon-acai.png);
+    background-image: url(../img/Lanches/milk1.jpeg);
     background-size: cover;
     background-position: center 1px;
     background-repeat: no-repeat;
@@ -241,7 +241,7 @@ a.navbar-brand {
 }
 
 .icon-pizza {
-    background-image: url(../img/icon-pizza.png);
+    background-image: url(../img/Lanches/passaporte1.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -258,7 +258,7 @@ a.navbar-brand {
 
 
 .icon-lanche {
-    background-image: url(../img/LANCHE/lanche.png);
+    background-image: url(../img/Lanches/hambu1.jpeg);
     background-size: cover;
     background-position: center 1px;
     background-repeat: no-repeat;

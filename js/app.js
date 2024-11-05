@@ -74,7 +74,7 @@ cardapio.eventos = {
 cardapio.metodos = {
 
     // obtem a lista de itens do cardápio
-    obterItensCardapio: (categoria = 'acai') => {
+    obterItensCardapio: (categoria = 'milk-shake') => {
         var filtro = MENU[categoria];
 
         $('#itensCardapio').html('')

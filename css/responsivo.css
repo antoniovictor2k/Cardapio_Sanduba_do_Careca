@@ -145,14 +145,26 @@
     }
 
     footer {
-        height: 320px;
+      
+        min-height: 200px;
         background-color: var(--color-primary-light);
         padding: 10px;
         overflow-y: hidden;
     }
 
+    footer .rowfooter{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .container-logo-footer {
         justify-content: center;
+        align-items: center;
         margin-bottom: 10px;
     }
 

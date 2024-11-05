@@ -1,65 +1,49 @@
 var MENU = {
-    "acai": [
+    "milk-shake": [
         {
-            "id": "acai-400ml",
-            "categoria": "acai",
-            "img": "./img/ACAI/700ml.png",
-            "name": "Açai de 400ML",
-            "dsc": "Açaí de 400ML",
-            "price": 12.00
+            "id": "milk-shake-500ml",
+            "categoria": "milk-shake",
+            "img": "./img/lanches/milk1.jpeg",
+            "name": "Milk Shake de Chocolate 500 ml",
+            "dsc": "Milk Shake de Chocolate 500 ml",
+            "price": 21.99
         },
         {
-            "id": "acai-500ml",
-            "categoria": "acai",
-            "img": "./img/ACAI/700ml.png",
-            "name": "Açai de 500ML",
-            "dsc": "Acaí de 500ML",
-            "price": 15.00
+            "id": "milk-shake-500ml",
+            "categoria": "milk-shake",
+            "img": "./img/lanches/milk2.jpeg",
+            "name": "Milk Shake de Nutella 500 ml",
+            "dsc": "Milk Shake de Nutella 500 ml",
+            "price": 21.99
         },
 
-        {
-            "id": "acai-700ml",
-            "categoria": "acai",
-            "img": "./img/ACAI/700ml.png",
-            "name": "Açai de 700ML",
-            "dsc": "Açaí de 700ML",
-            "price": 18.00
-        },
         
-        {
-            "id": "acai-1l",
-            "categoria": "acai",
-            "img": "./img/ACAI/1L.png",
-            "name": "Açai de 1L",
-            "dsc": "Açaí de 1L",
-            "price": 25.00
-        }
 
     ],
-    "pizza": [
+    "passaporte": [
         {
-            "id": "pizza-calabresa",
-            "categoria": "pizza",
+            "id": "passaporte",
+            "categoria": "passaporte",
             "img": "./img/lanches/passaporte1.jpeg",
-            "name": "Pizza de Calabresa",
-            "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
-            "price": 20.00
+            "name": "Passaporte de Frango",
+            "dsc": "Passaporte de Frango, numa combinação de pão seda leve e macio, recheado com Frango desfiado molhadinho e saborosa salsicha, milho verde, ervilha e tomate verdes frescos picados, maionese de queijo e parmesão dão toque final.",
+            "price": 27.99
         },
         {
-            "id": "pizza-calabresa",
-            "categoria": "pizza",
+            "id": "passaporte",
+            "categoria": "passaporte",
             "img": "./img/lanches/passaporte2.jpeg",
-            "name": "Pizza de Calabresa",
-            "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
-            "price": 20.00
+            "name": "Passaporte de Carne",
+            "dsc": "Passaporte de Carne', numa combinação de pão seda leve e macio, recheado com carne moída molhadinha e saborosa salsicha, milho verde, ervilha e tomate verdes frescos picados, maionese de queijo e parmesão dão toque final.",
+            "price": 28.99
         },
         {
-            "id": "pizza-calabresa",
-            "categoria": "pizza",
+            "id": "passaporte",
+            "categoria": "passaporte",
             "img": "./img/lanches/passaporte3.jpeg",
-            "name": "Pizza de Calabresa",
-            "dsc": "pizza de calabresa com cebola e tomate e varios outras opções para voce cliente",
-            "price": 20.00
+            "name": "Passa Filé",
+            "dsc": "Passa Filé; feito num pão seda macio, com uma suculenta porção de filé de alcatra (150g), acrescentado de queijo derretido, presunto, finalizado com maionese de queijo e parmesão.",
+            "price": 33.99
         },
        
     ],
@@ -76,14 +60,14 @@ var MENU = {
             "id": "lanche-xtudo",
             "categoria": "lanche",
             "img": "./img/lanches/hambu2.jpeg",
-            "name": "Xtudo",
+            "name": "X-Bacon",
             "dsc": "Xtudo Completão .... ... .. .. .......",
             "price": 30.00
         },
         {
             "id": "lanche-Minuano",
             "categoria": "lanche",
-            "img": "./img/LANCHE/lanche.png",
+            "img": "./img/lanches/hambu3.jpeg",
             "name": "Minuano",
             "dsc": "Minuano ......",
             "price": 14.00
@@ -91,7 +75,7 @@ var MENU = {
         {
             "id": "lanche-Xfrango",
             "categoria": "lanche",
-            "img": "./img/LANCHE/lanche.png",
+            "img": "./img/lanches/hambu4.jpeg",
             "name": "Xfrango",
             "dsc": "Xfrango..........",
             "price": 20.00
